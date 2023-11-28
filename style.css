@@ -1,0 +1,25 @@
+main {
+  border: 1px solid grey;
+  border-radius: 15px;
+  padding: 15px;
+}
+.personal {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: box-shadow 0.5s ease-in-out;
+}
+.personal:hover { box-shadow: 0 0 10px grey; }
+.personal > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.personal .btn-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
